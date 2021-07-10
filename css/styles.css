@@ -213,13 +213,23 @@ height: 75px;
 
 /*======== ABOUT ========*/
 
+.about-list{
+    display: flex;
+    justify-content: space-between;
+}
+
+.about .secondary-header{
+    margin-bottom: 50px;
+    text-align: center;
+}
+
 /*======== END ABOUT ========*/
 
 /*======== EMPLOYEES ========*/
 
-.employees{
+/* .employees{
     background-color: var(--employees-bg-color);
-}
+} */
 
 .employees-name{
 font-weight: 500;
@@ -235,6 +245,30 @@ letter-spacing: 0.03em;
 color:var(--forth-color)
 }
 
+.employees .employees-list{
+    display: flex;
+}
+
+.employees .employees-item:not(last-child){
+    margin-right: 30px;
+}
+
+
+.employees .secondary-header{
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.employees .container{
+    background-color: var(--employees-bg-color);
+    width: 1600px;
+}
+
+.employees .employees-item:first-child{
+    margin-left: 215px;
+}
+    
+}
 /*======== END EMPLOYEES ========*/
 
 /*======== FILTERS ========*/
