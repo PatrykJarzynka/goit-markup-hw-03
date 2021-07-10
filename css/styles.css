@@ -140,6 +140,8 @@ text-decoration: none;
 
 .hero-up{
     background-color: var(--footer-bg-color);
+    width: 1600px;
+    height: 600px;
 }
 
 .first-header{
