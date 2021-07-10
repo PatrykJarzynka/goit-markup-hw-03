@@ -48,6 +48,9 @@ p{
 
 .section{
 padding: 94px 0;
+width: 1600px;
+margin-left: auto;
+margin-right: auto;
 }
 /*======== COMPONENTS ========*/
 
@@ -227,9 +230,13 @@ height: 75px;
 
 /*======== EMPLOYEES ========*/
 
-/* .employees{
+.employees{
     background-color: var(--employees-bg-color);
-} */
+}
+
+.employees .container{
+    width: 1600px;
+}
 
 .employees-name{
 font-weight: 500;
@@ -259,15 +266,26 @@ color:var(--forth-color)
     margin-bottom: 50px;
 }
 
-.employees .container{
-    background-color: var(--employees-bg-color);
-    width: 1600px;
-}
 
 .employees .employees-item:first-child{
     margin-left: 215px;
 }
-    
+
+.employees-list-wrapper .employees-name{
+    padding-top: 30px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.employees-list-wrapper .employees-job{
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.employees-list-wrapper{
+    background-color: var(--third-color);
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+border-radius: 0px 0px 4px 4px;
 }
 /*======== END EMPLOYEES ========*/
 
@@ -309,6 +327,8 @@ color:var(--forth-color);
 
 .footer{
     background-color:var(--footer-bg-color);
+    padding-top: 60px;
+    padding-bottom: 60px;
 }
 
 .address-link,
@@ -328,4 +348,6 @@ text-decoration: none;
 .logo-color-part2{
     color:var(--third-color);
 }
+
+
 /*======== END FOOTER ========*/
