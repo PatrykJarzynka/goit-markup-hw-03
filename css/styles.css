@@ -46,7 +46,7 @@ p{
 }
 
 .container{
-    width: 1170px;
+    width: 1200px;
     padding: 0 15px;
     margin: 0 auto;
 }
@@ -314,13 +314,10 @@ border-radius: 4px;
 margin-right: 8px;
 padding-top: 6px;
 padding-bottom: 6px;
+padding-right: 22px;
+padding-left: 22px;
 }
 
-
-.filter-btn:nth-child(2n){
-    width: 150px;
-    text-align: center;
-}
 
 
 .filter-btn:hover,
@@ -333,9 +330,14 @@ padding-bottom: 6px;
 
 /*======== OFFER ========*/
 
+.offer .container{
+    width:1210px;
+}
+
+
 .offer-item{
     margin-bottom: 30px;
-    /* border: 1px solid #EEEEEE; */
+    border: 1px solid #EEEEEE;
 }
 
 
