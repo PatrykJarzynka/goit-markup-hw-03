@@ -14,37 +14,43 @@
 
 <body>
     <header class="header">
-        <nav class="navigation">
-            <a class="logo" href="index.html"><span class="logo-color">Web</span>Studio</a>
-        <ul class="navigation-list">
-            <li class="navigation-item"><a class="navigation-link" href="#">Agencja</a></li>
-            <li class="navigation-item"><a class="navigation-link" href="#">Portfolio</a></li>
-            <li class="navigation-item"><a class="navigation-link" href="#">Kontakt</a></li>
-        </ul>
-        </nav>
-            <ul class="contact-list">
-                <li class="contact-item"><a class="contact-link" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+        <div class="container">
+            <nav class="navigation">
+                <a class="logo" href="index.html"><span class="logo-color">Web</span>Studio</a>
+                <ul class="navigation-list list">
+                    <li class="navigation-item"><a class="navigation-link" href="#">Agencja</a></li>
+                    <li class="navigation-item"><a class="navigation-link" href="portfolio.html">Portfolio</a></li>
+                    <li class="navigation-item"><a class="navigation-link" href="#">Kontakt</a></li>
+                </ul>
+            </nav>
+            <ul class="contact-list list">
+                <li class="contact-item"><a class="contact-link" href="mailto:info@devstudio.com">info@devstudio.com</a>
+                </li>
                 <li class="contact-item"><a class="contact-link" href="tel:+48111111111">+48 111 111 111</a></li>
             </ul>
+        </div>
     </header>
 
     <main>
         <!--FILTERS-->
-        <section class="filters">
-            <h1 class="filters-header" hidden>Filtr</h1>
-            <ul class="filters-list">
-                <li class="filters-item"><button class="filter-btn" type="button">Wszystkie</button></li>
-                <li class="filters-item"><button class="filter-btn" type="button">Strony</button></li>
-                <li class="filters-item"><button class="filter-btn" type="button">Aplikacje</button></li>
-                <li class="filters-item"><button class="filter-btn" type="button">Dizajn</button></li>
-                <li class="filters-item"><button class="filter-btn" type="button">Marketing</button></li>
-            </ul>
+        <section class="filters section">
+            <div class="container">
+                <h1 class="filters-header" hidden>Filtr</h1>
+                <ul class="filters-list list">
+                    <li class="filters-item"><button class="filter-btn button" type="button">Wszystkie</button></li>
+                    <li class="filters-item"><button class="filter-btn button" type="button">Strony</button></li>
+                    <li class="filters-item"><button class="filter-btn button" type="button">Aplikacje</button></li>
+                    <li class="filters-item"><button class="filter-btn button" type="button">Dizajn</button></li>
+                    <li class="filters-item"><button class="filter-btn button" type="button">Marketing</button></li>
+                </ul>
+            </div>
+            
         </section>
         <!--END FILTERS-->
         <!--OFFER-->
         <section>
             <h2 class="secondary-header" hidden>Oferta</h2>
-            <ul class="offer-list">
+            <ul class="offer-list list">
                 <li class="offer-item">
                     <img class="offer-img" src="images/Portfolio-images/img1.jpg" alt="Strona internetowa wyświetlana na laptopie." width=370 height=294>
                     <p class="offer-main-text">Technocrack</p>
@@ -95,15 +101,23 @@
         <!--END OFFER-->
     </main>
 
-    <footer class="footer">
-        <a class="logo" href="/index.html"><span class="logo-color">Web</span><span class=logo-color-part2>Studio</span></a>
-        <address> 
-            <ul class="address-list">
-                <li class="address-item"><a class="address-link" href="https://goo.gl/maps/JK12DtxeWqev6L8q9" target="_blank">m.Warszawa, Aleje Jerozolimskie 21</a></li>
-                <li class="address-item"><a class="address-link-contact" href="mailto:info@example.com">info@example.com</a></li>
-                <li class="address-item"><a class="address-link-contact" href="tel:+48111111111">+48 111 111 111</a></li>
-            </ul>
-        </address>
+    <footer class="footer section">
+        <div class="container">
+            <a class="logo" href="/index.html"><span class="logo-color">Web</span><span
+                    class=logo-color-part2>Studio</span></a>
+            <address>
+                <ul class="address-list list">
+                    <li class="address-item"><a class="address-link" href="https://goo.gl/maps/JK12DtxeWqev6L8q9"
+                            target="_blank">m.Warszawa, Aleje Jerozolimskie 21</a></li>
+                    <li class="address-item"><a class="address-link-contact"
+                            href="mailto:info@example.com">info@example.com</a>
+                    </li>
+                    <li class="address-item"><a class="address-link-contact" href="tel:+48111111111">+48 111 111 111</a>
+                    </li>
+                </ul>
+            </address>
+        </div>
+    
     </footer>
 
 </body>
