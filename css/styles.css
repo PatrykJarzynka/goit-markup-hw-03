@@ -88,6 +88,7 @@ letter-spacing: 0.03em;
     justify-content: space-between;
     padding-top: 24px;
     padding-bottom: 25px;
+    border-bottom: 1px solid #ECECEC;
 }
 
 .navigation{
@@ -359,6 +360,7 @@ line-height: 2;
 letter-spacing: 0.06em;
 margin-top: 20px;
 margin-bottom: 4px;
+margin-left: 24px;
 }
 
 .offer-description{
@@ -366,6 +368,8 @@ font-size: 16px;
 line-height: 1.875;
 letter-spacing: 0.03em;
 color:var(--forth-color);
+margin-left: 24px;
+margin-bottom: 20px;
 }
 /*======== END OFFER ========*/
 
