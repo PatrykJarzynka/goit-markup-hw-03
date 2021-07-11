@@ -109,6 +109,10 @@ letter-spacing: 0.03em;
     margin-right: 94px;
 }
 
+.header .logo-color-part2{
+    color:var(--main-color);
+}
+
 .navigation-item:not(:last-child){
     margin-right: 46px;
 }
